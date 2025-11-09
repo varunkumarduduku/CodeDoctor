@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeDoctor - AI Debugging Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CodeDoctor</h1>
+        <p>AI-powered tool to debug code, understand errors, and build coding confidence.</p>
+    </header>
+    
+    <section id="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    
+    <section id="debugger" style="display: none;">
+        <h2>Code Debugger</h2>
+        <p>Enter your code below and click "Debug" for AI-powered analysis.</p>
+        <textarea id="codeInput" placeholder="Paste your code here (e.g., Python, JavaScript)..."></textarea>
+        <button id="debugBtn">Debug Code</button>
+        <div id="output"></div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 CodeDoctor Team. Empowering beginners in programming.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
